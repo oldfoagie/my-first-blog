@@ -10,3 +10,12 @@ def post_list(request):
 
 def home(request):
     return render(request, 'blog/home.html')
+
+def board(request):
+    return render(request, 'blog/board.html')
+
+def cities(request):
+    return render(request, 'blog/cities.html')
+
+def orgs(request):
+    return render(request, 'blog/orgs.html')
