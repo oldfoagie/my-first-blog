@@ -7,4 +7,4 @@ urlpatterns = [
     url(r'board$', views.board),
     url(r'cities$', views.cities),
     url(r'orgs$', views.orgs),
-]
+    ]
